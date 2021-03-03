@@ -33,7 +33,7 @@ public class Arithmetic {
     }
 
     public double multiplyTwoNumbers() {
-        double multiply = firstNumber * `   secondNumber;
+        double multiply = firstNumber * secondNumber;
         return multiply;
     }
 
