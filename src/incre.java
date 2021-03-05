@@ -3,7 +3,10 @@ public class incre {
         int kenny = 3;
 
         for (int counter=0; counter<10; counter++);
+
         System.out.printf("kenny is %d%n", kenny);
+
+
     }
 
 

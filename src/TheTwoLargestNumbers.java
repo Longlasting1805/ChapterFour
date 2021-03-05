@@ -30,4 +30,12 @@ public class TheTwoLargestNumbers {
       secondLargestNumber=number;
   }
     }
+
+    public void setLargestNumber(int largestNumber) {
+        this.largestNumber = largestNumber;
+    }
+
+    public void setSecondLargestNumber(int secondLargestNumber) {
+        this.secondLargestNumber = secondLargestNumber;
+    }
 }
