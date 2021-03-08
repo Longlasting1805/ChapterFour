@@ -9,8 +9,6 @@ public class TheTwoLargestNumbers {
         return largestNumber;
     }
 
-
-
     public int getSecondLargestNumber() {
         return secondLargestNumber;
     }
