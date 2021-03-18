@@ -6,7 +6,8 @@ public class DecryptValues {
     Cryptography cryptography = new Cryptography();
 
 
-    public static void decryptNumber(int number){
+    public static
+    void decryptNumber(int number){
 
         int firstDigit = number / 10;
         int division = number % 10;

@@ -30,6 +30,4 @@ public class GasMileage {
             System.out.printf("the miles driven is %d%n the gallon used is %d%n", totalMileDriven,totalGallonUsed);
 
     }
-
-
 }
