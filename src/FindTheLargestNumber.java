@@ -20,12 +20,14 @@ public class FindTheLargestNumber {
         return contestWinner;
     }
 
-    public void setLargestNumber(int number) {
+    public
+    void setLargestNumber(int number) {
         this.largestNumber = number;
 
     }
 
-    public static int getLargestNumber(int [] numbers) {
+    public
+    static int getLargestNumber(int [] numbers) {
         int counter = 0;
         int LargestNumber = 0;
         Scanner largest = new Scanner(System.in);

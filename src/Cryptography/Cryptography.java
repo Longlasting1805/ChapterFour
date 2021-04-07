@@ -7,7 +7,8 @@ public class Cryptography {
 
     static int  division,division1,division2,division3;
 
-    public static int encryptNumber(int number){
+    public static
+    int encryptNumber(int number){
 
         //separations
 
