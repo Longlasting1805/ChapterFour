@@ -3,9 +3,8 @@ import java.util.Scanner;
 
 public class EmployeeObject {
     public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
-    employee kenny = new employee("laredo", "billy", 3.11);
-    employee billy = new employee("ken", "aka", 21.5);
+    employee kenny = new employee("laredo", "billy", 300.11);
+    employee billy = new employee("Akande", "Kehinde", 200.55);
 
     kenny.setF_name("laredo");
             System.out.printf("Firstname: %s%n", kenny.getF_name());

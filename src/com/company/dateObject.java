@@ -2,8 +2,8 @@ package com.company;
 import java.util.Scanner;
 
 public class dateObject {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+    public static
+    void main(String[] args) {
         date kenny = new date(02,28,1997);
 
         kenny.setMonth(02);

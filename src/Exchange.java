@@ -12,11 +12,11 @@ public class Exchange {
 
             odd = 2 / firstNumber;
 
-            if (2 < firstNumber){
+            if (2 > firstNumber){
                 System.out.printf("number is odd %d%n :" , odd , firstNumber);
             }
             else{
-                System.out.printf("number is even %d%n" , firstNumber , odd);
+                System.out.printf("number is even %d%n" , firstNumber);
             }
 
         }

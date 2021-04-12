@@ -8,7 +8,7 @@ class ValidateUserInputTest {
     ValidateUserInput validateUserInput;
     @BeforeEach
     void setUp() {
-        validateUserInput = new ValidateUserInput(1, 2);
+
     }
 
     @AfterEach

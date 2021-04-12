@@ -5,35 +5,44 @@ public class date {
     private int day;
     private int year;
 
-    public date(int month, int day, int year){
+    public
+    date(int month, int day, int year){
         this.month=month;
         this.day=day;
         this.year=year;
 
-
     }
-    public void setMonth(int month){
+    public
+    void setMonth(int month){
         this.month=month;
     }
-    public int getMonth(){
+    public
+    int getMonth(){
         return month;
     }
 
-    public void setDay(int day){
+    public
+    void setDay(int day){
         this.day=day;
     }
-    public int getDay(){
+
+    public
+    int getDay(){
         return day;
     }
 
-    public void setYear(int year){
+    public
+    void setYear(int year){
         this.year=year;
     }
-    public int getYear(){
+
+    public
+    int getYear(){
         return year;
     }
 
-    public void display_date(){
+    public
+    void display_date(){
         System.out.printf(month + "/" + day + "/" + year);
     }
 

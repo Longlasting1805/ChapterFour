@@ -17,29 +17,36 @@ public class employee {
         }
     }
 
-    public void setF_name(String f_name){
+    public
+    void setF_name(String f_name){
         this.f_name = f_name;
     }
-    public String getF_name(){
+    public
+    String getF_name(){
         return f_name;
     }
 
-    public void setL_name(String l_name){
+    public
+    void setL_name(String l_name){
         this.l_name = l_name;
     }
-    public String getL_name(){
+    public
+    String getL_name(){
         return l_name;
     }
 
-    public void setMonthly_salary(double monthly_salary){
+    public
+    void setMonthly_salary(double monthly_salary){
         this.monthly_salary = monthly_salary;
     }
-    public double getMonthly_salary(){
+
+    public
+    double getMonthly_salary(){
         return monthly_salary;
     }
-    public double increase_salary(){
+
+    public void increase_salary(){
         monthly_salary=monthly_salary+((monthly_salary*10)/100);
-        return monthly_salary;
     }
 
 }

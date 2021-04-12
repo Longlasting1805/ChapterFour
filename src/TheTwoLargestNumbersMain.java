@@ -12,7 +12,6 @@ public class TheTwoLargestNumbersMain {
             System.out.println("enter the number");
             theTwoLargestNumbers.setNumber(scanner.nextInt());
         }
-
         System.out.printf("LargestNumber is: %d%n SecondLargestNumber is %d",theTwoLargestNumbers.getLargestNumber(),theTwoLargestNumbers.getSecondLargestNumber());
     }
 }
